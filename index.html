@@ -9,11 +9,186 @@
     <link rel="icon" href="./assets/images/logo/favicon.png">
 
     <!-- themify icons -->
-     <link rel="stylesheet" href="./assets/css/themify-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@icon/themify-icons@1.0.1-alpha.3/themify-icons.min.css">
 
-     
+     <!-- all css files -->
+    <link rel="stylesheet" href="./assets/css/swiper.min.css">
+
+    <!-- bootstrap 5 css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+     <!-- style css -->
+      <link rel="stylesheet" href="./assets/css/style.css">
+
+      <!-- responsive css -->
+       <link rel="stylesheet" href="./assets/css/responsive-style.css">
+
+
+
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#navbarText" data-bs-offset="0" class="navbar-nav" tabindex="0">
+
+        <!-- ============================
+                 Header Section
+        =================================  -->
+
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-sticky">
+                <div class="container">
+                  <a class="navbar-brand" href="#">
+                    <img src="./assets/images/logo/oneshot-white.png" alt="one shot white" class="img-fluid navbar-brand-regular">
+                    <img src="./assets/images/logo/oneshot-pink.png" alt="one shot pink" class="img-fluid navbar-brand-sticky">
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link scroll active" aria-current="page" href="#home">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link scroll" href="#feautures">Features</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link scroll" href="#app-screenshots">Screenshots</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link scroll" href="#pricing">Pricing</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link scroll" href="#contact">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <!-- ============================
+                 Start Home
+        =================================  -->
+
+        <section id="home">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="home_text">
+                            <h2>Present your app with <span class="text-uppercase">oneshot</span></h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam nulla libero quisquam sint, possimus autem nobis sed itaque ullam expedita, nesciunt ipsum. Commodi laudantium odio fugiat quae aspernatur omnis, libero enim sapiente et eos quam sit, eligendi tempore aut aliquam, repellendus vel amet vitae fugit. Commodi similique cum odio impedit.</p>
+
+                            <!-- home download btn -->
+                             <div class="home-download-btn">
+                                <a href="#" class="btn btn-border mt-4">
+                                    <span class="ti ti-control-play"></span>Play Store
+                                </a>
+                                <a href="#" class="btn btn-border mt-4">
+                                    <span class="ti ti-apple"></span>App Store
+                                </a>
+                             </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-12 col-lg-6">
+                        <div class="home-image">
+                            <img src="./assets/images/m.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================
+            Counter Section
+        =================================  -->
+
+        <section class="section counter_area">
+            <div class="container">
+                <div class="row justify-content-center">
+
+                    <!-- single counter -->
+                    <div class="col-6 col-sm-3 single_counter text-center">
+                        <div class="counter_inner p-3 p-md-0">
+                            <!-- counter item -->
+                             <div class="counter_item d-inline-block mb-3">
+                                <span id="count1" class="counter fw-bold">10</span>
+                                <span class="fw-bold">M</span>
+                             </div>
+                             <h5>Users</h5>
+                        </div>
+                    </div>
+
+                    <!-- single counter -->
+                    <div class="col-6 col-sm-3 single_counter text-center">
+                        <div class="counter_inner p-3 p-md-0">
+                            <!-- counter item -->
+                             <div class="counter_item d-inline-block mb-3">
+                                <span id="count2" class="counter fw-bold">23</span>
+                                <span class="fw-bold">K</span>
+                             </div>
+                             <h5>Download</h5>
+                        </div>
+                    </div>
+
+
+                    <!-- single counter -->
+                    <div class="col-6 col-sm-3 single_counter text-center">
+                        <div class="counter_inner p-3 p-md-0">
+                            <!-- counter item -->
+                             <div class="counter_item d-inline-block mb-3">
+                                <span id="count3" class="counter fw-bold">9</span>
+                                <span class="fw-bold">M</span>
+                             </div>
+                             <h5>Customer</h5>
+                        </div>
+                    </div>
+
+
+                    <!-- single counter -->
+                    <div class="col-6 col-sm-3 single_counter text-center">
+                        <div class="counter_inner p-3 p-md-0">
+                            <!-- counter item -->
+                             <div class="counter_item d-inline-block mb-3">
+                                <span id="count4" class="counter fw-bold">12</span>
+                                <span class="fw-bold">K</span>
+                             </div>
+                             <h5>Developer</h5>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- ============================
+            Promo Section
+        =================================  -->
+
+        <section class="promo_section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-7 col-md-8">
+
+                        <!-- section headline -->
+                         <div class="section_headline text-center">
+                            <h2>Why do every people <br> <span>love App-mobile?</span></h2>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus, placeat? <br> Placeat aut similique quos nesciunt impedit ab officia, rem consectetur.</p>
+                         </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- javascript -->
+
+        <!-- bootstrap js -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- script js -->
+         <script src="./assets/js/script.js"></script>
+
 
 </body>
 </html>
